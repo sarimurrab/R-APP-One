@@ -41,8 +41,9 @@ jobs:
       - name: installing surge
         run: npm install -g surge
 
+      - name: moving to root directory
+        run: run: cd ..; cd ..
       - name: deploying on surge
-        run: cd ..; cd ..
         run: surge ./build http://react-app-one-bootcamp2020.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
 
 
