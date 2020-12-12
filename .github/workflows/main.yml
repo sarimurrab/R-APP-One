@@ -31,8 +31,8 @@ jobs:
         
       - name: creating build
         run: 
-          npm install
-          npm run build
+          npm install # Install Dependencies
+          CI=false npm run build # CI=false to ignore warnings
 
       - name: installing surge
         run: npm install -g surge
