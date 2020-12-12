@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      I made my first CI-CD 2nd Pipeline
+      This is my CI-CD pipeline, And It is working well. 
     </div>
   );
 }
