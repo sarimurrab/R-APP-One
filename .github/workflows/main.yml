@@ -42,6 +42,6 @@ jobs:
         run: npm install -g surge
 
       - name: deploying on surge
-        run: surge ./build http://react-app-one-bootcamp2020.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http://react-app-one-bootcamp2020.surge.sh/ --token da8b5ffee813c6e05cf5a8fee3b008b7 #${{secrets.SURGE_TOKEN}}
 
 
